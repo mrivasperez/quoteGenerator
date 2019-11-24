@@ -22,6 +22,8 @@ body{
 #quoteBtn{
     border: none;
     background:rgb(206, 205, 205);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     outline: none;
