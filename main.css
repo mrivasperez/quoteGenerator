@@ -1,0 +1,60 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-family: 'calibri', sans-serif;
+    background: #3a3a3a;
+    background-image: url("bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.568);
+    flex:0 0 80%;
+}
+
+#quoteBtn{
+    border: none;
+    background:rgb(206, 205, 205);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(105, 105, 105, 0.2), 0 6px 20px 0 rgba(143, 1, 1, 0.19);
+
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+#quoteBtn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgb(197, 196, 196);
+}
+
+blockquote{
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-weight: 100;
+    
+}
+
+#quote{
+    font-weight: 100;
+    text-transform: none;
+    text-align: left;
+    font-style: italic;
+}
+
+#quoteAuthor{
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    
+}
+.heading{
+    font-weight: 100;
+}
