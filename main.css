@@ -20,6 +20,7 @@ body{
     background-color: rgba(255, 255, 255, 0.568);
     flex:0 0 80%;
     border: 1px white solid;
+    max-width: 500px;
 }
 
 #quoteBtn{
@@ -39,7 +40,11 @@ body{
 #quoteBtn:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: rgb(197, 196, 196);
-    transition: 1s;
+    transition: .3s;
+}
+
+#quoteBtn:active{
+    background: rgb(163, 162, 162);
 }
 
 blockquote{
