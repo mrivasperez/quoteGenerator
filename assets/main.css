@@ -13,14 +13,13 @@ body{
 }
 
 .container{
-    text-align: center;
     padding: 2rem;
     border-radius: 5px;
-    transition: 5s;
     background-color: rgba(255, 255, 255, 1);
     flex:0 0 80%;
     border: 1px white solid;
     max-width: 500px;
+    text-align: center;
 }
 
 #quoteBtn{
@@ -45,27 +44,28 @@ body{
 
 #quoteBtn:active{
     background: rgb(163, 162, 162);
+    text-align: center;
 }
 
 blockquote{
     margin: 1.5rem;
     padding: 0.5rem;
     font-weight: 100;
-    
+    text-align: left;
 }
 
 #quote{
     font-weight: 100;
     text-transform: none;
-    text-align: left;
-    font-style: italic;
+    font-style: bold;
 }
 
 #quoteAuthor{
     color: rgb(0, 0, 0);
     font-weight: 100;
-    
+    font-size: 14px;
 }
 .heading{
     font-weight: 100;
+    text-align: center;
 }

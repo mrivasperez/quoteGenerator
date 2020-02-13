@@ -44,16 +44,16 @@ const quotes = [
         quote: 'Citizenship to me is more than a piece of paper. Citizenship is also about character. I am an American. We’re just waiting for our country to recognize it.'
     },
     {
-        name: 'Anyone who has ever made anything of importance was disciplined.,
-        quote: 'Andrew Hendrixson'
+        name: 'Andrew Hendrixson',
+        quote: 'Anyone who has ever made anything of importance was disciplined.'
     },
     {
-        name: 'Creativity is intelligence having fun.',
-        quote: ''
+        name: 'Albert Einstein',
+        quote: 'Creativity is intelligence having fun.'
     },
     {
-        name: 'What you get by achieving your goals is not as important as what you become by achieving your goals.',
-        quote: 'Henry David Thoreau'
+        name: 'Henry David Thoreau',
+        quote: 'What you get by achieving your goals is not as important as what you become by achieving your goals.'
     }
 ]
 
@@ -65,8 +65,8 @@ quoteBtn.addEventListener('click', displayQuote);
 
 function displayQuote(){
     let number = Math.floor(Math.random()*quotes.length);
-    quoteAuthor.innerHTML = quotes[number].name;
-    quote.innerHTML = quotes[number].quote
+    quoteAuthor.innerHTML = '- ' + quotes[number].name;
+    quote.innerHTML = '"' + quotes[number].quote + '"';
 }
 
 displayQuote();
