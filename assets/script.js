@@ -42,6 +42,18 @@ const quotes = [
     {
         name: 'Jose Antonio Vargas',
         quote: 'Citizenship to me is more than a piece of paper. Citizenship is also about character. I am an American. We’re just waiting for our country to recognize it.'
+    },
+    {
+        name: 'Anyone who has ever made anything of importance was disciplined.,
+        quote: 'Andrew Hendrixson'
+    },
+    {
+        name: 'Creativity is intelligence having fun.',
+        quote: ''
+    },
+    {
+        name: 'What you get by achieving your goals is not as important as what you become by achieving your goals.',
+        quote: 'Henry David Thoreau'
     }
 ]
 
@@ -57,5 +69,5 @@ function displayQuote(){
     quote.innerHTML = quotes[number].quote
 }
 
-
+displayQuote();
 
